@@ -13,6 +13,8 @@ deep_learning/
 └── README.md                # Project documentation
 ```
 
+For detailed explanations, training results, and full code listings, see the report. 
+
 ## How to run
 ### Requirements
 
@@ -53,3 +55,26 @@ The code will:
 | **Single hidden-layer NN** | 1 hidden layer (400 neurons)  | ≈ 92.5 %  |
 | **Two hidden-layer NN**    | Layers of 500 and 300 neurons | ≈ 97.99 % |
 | **Convolutional NN (CNN)** | 2 conv layers + dense layers  | ≈ 99.1 %  |
+
+Each model is trained using SGD with momentum = 0.99 and learning rate = 0.001.
+Loss function: CrossEntropyLoss.
+
+### Results
+- Increasing the network depth improves performance up to ~99 % accuracy.
+
+- CNN achieves the best trade-off between speed, generalization, and accuracy.
+
+- Training curves and complete implementation details are available in the report.
+
+### Key learnings
+- How network depth impacts model accuracy.
+
+- Practical use of PyTorch for training and evaluating neural networks.
+
+- Visualization and normalization of image data.
+
+- Hyperparameter tuning (learning rate, momentum, weight decay).
+
+## Author
+
+Clara Petrescu-Stompor (clara.petrescu.stompor@gmail.com)
