@@ -13,6 +13,8 @@ deep_learning/
 └── README.md                # Project documentation
 ```
 
+## Report
+
 For detailed explanations, training results, and full code listings, see the report. 
 
 ## How to run
